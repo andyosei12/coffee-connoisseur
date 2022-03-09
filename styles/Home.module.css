@@ -24,6 +24,7 @@
   grid-template-columns: repeat(1, minmax(0, 1fr));
   column-gap: 1.5rem;
   row-gap: 1.5rem;
+  /* margin-top: 5rem; */
 }
 
 .card {
@@ -110,4 +111,16 @@
   .cardLayout {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+}
+
+.heading2 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  color: var(--text-white-100);
+}
+
+.sectionWrapper {
+  margin-top: 5rem;
 }
